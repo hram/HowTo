@@ -42,7 +42,6 @@ $(document).ready(
 					data: JSON.stringify(somejson),
 					processData: false,
 					success: function() {
-						// location.reload();
 						App.Dialogs.message('Тесты успешно запущены на teamcity. Статус тестов будет автоматически проставлен в TestRail.', 'Успех');
 					},
 					error: function() {
